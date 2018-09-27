@@ -1,0 +1,16 @@
+{
+	"name": "netliva/options",
+	"license": "MIT",
+	"type": "library",
+	"description": "Netliva Options Library",
+	"autoload": {
+		"psr-4": {
+			"Netliva\\OptionsBundle\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.3.3",
+		"symfony/framework-bundle": "~2.7|~3.0|~4.0"
+	},
+	"minimum-stability": "stable"
+}
