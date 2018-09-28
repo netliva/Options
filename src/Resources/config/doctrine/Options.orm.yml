@@ -1,0 +1,16 @@
+Netliva\OptionsBundle\Entity\Options:
+    type: entity
+    table: Options
+    id:
+        id:
+            column: O_AutoID
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        keyword:
+            column: O_Key
+            type: string
+            length: 255
+        value:
+            column: O_Value
+            type: json_array

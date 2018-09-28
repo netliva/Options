@@ -1,0 +1,10 @@
+services:
+    Netliva\OptionsBundle\Services\OptionServices:
+        public: false
+        arguments: ["@doctrine.orm.entity_manager"]
+        tags:
+            - { name: twig.extension }
+
+    netliva.options:
+        alias: Netliva\OptionsBundle\Services\OptionServices
+        public: true
