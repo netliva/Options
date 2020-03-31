@@ -14,3 +14,4 @@ Netliva\OptionsBundle\Entity\Options:
         value:
             column: NO_Value
             type: json_array
+            nullable: true
